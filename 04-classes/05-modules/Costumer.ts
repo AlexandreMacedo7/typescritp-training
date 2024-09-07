@@ -1,9 +1,7 @@
 export class Costumer{
     
-    //Constructo new
-    constructor(private _firstName: string,private _lastName: string){
-        
-    }
+    constructor(private _firstName: string,private _lastName: string){}
+    
     get firstName(): string{
         return this._firstName;
     }
